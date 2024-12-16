@@ -1,0 +1,409 @@
+//{
+//  "exclude": [
+//    "**/bin",
+//    "**/bower_components",
+//    "**/jspm_packages",
+//    "**/node_modules",
+//    "**/obj",
+//    "**/platforms"
+//  ]
+//}
+
+//{
+//  "TermOfPayment": {
+//    "vd": "oo",
+//    "ca": "ca"
+//  },
+//  "MethodOfPayment": {
+//    "vd": "oo",
+//    "ca": "ca"
+//  }
+//}
+
+
+
+//{
+//  "TermOfPayment": {
+//    "vd": "oo",
+//    "ca": "oo"
+//  },
+//  "MethodOfPayment": {
+//    "vd": "oo",
+//    "ca": "ca"
+//  }
+//}
+
+
+
+//{
+//  "F_VD_CA": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_VD_CQ": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_VD_DD": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_VD_TR": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_VD_blank": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_30_CA": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_30_CQ": {
+//    "Term of Payment (Mapped)": "30",
+//    "Method of Payment (Mapped)": "CH"
+//  },
+//  "F_30_DD": {
+//    "Term of Payment (Mapped)": "30",
+//    "Method of Payment (Mapped)": "DD"
+//  },
+//  "F_30_TR": {
+//    "Term of Payment (Mapped)": "30",
+//    "Method of Payment (Mapped)": "TRF"
+//  },
+//  "F_30_blank": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_blank_CA": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_blank_TR": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_blank_blank": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_A_CA": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_A_CP": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_A_CQ": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_A_TR": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_A_blank": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_90_CA": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_90_CQ": {
+//    "Term of Payment (Mapped)": "90",
+//    "Method of Payment (Mapped)": "CH"
+//  },
+//  "F_90_DD": {
+//    "Term of Payment (Mapped)": "90",
+//    "Method of Payment (Mapped)": "DD"
+//  },
+//  "F_90_TR": {
+//    "Term of Payment (Mapped)": "90",
+//    "Method of Payment (Mapped)": "TRF"
+//  },
+//  "F_60_CA": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_60_CQ": {
+//    "Term of Payment (Mapped)": "60",
+//    "Method of Payment (Mapped)": "CH"
+//  },
+//  "F_60_DD": {
+//    "Term of Payment (Mapped)": "60",
+//    "Method of Payment (Mapped)": "DD"
+//  },
+//  "F_60_TR": {
+//    "Term of Payment (Mapped)": "60",
+//    "Method of Payment (Mapped)": "TRF"
+//  },
+//  "F_45_CQ": {
+//    "Term of Payment (Mapped)": "30",
+//    "Method of Payment (Mapped)": "CH"
+//  },
+//  "F_45_TR": {
+//    "Term of Payment (Mapped)": "30",
+//    "Method of Payment (Mapped)": "TRF"
+//  },
+//  "F_DD_DD": {
+//    "Term of Payment (Mapped)": "30",
+//    "Method of Payment (Mapped)": "DD"
+//  },
+//  "F_12_TR": {
+//    "Term of Payment (Mapped)": "120",
+//    "Method of Payment (Mapped)": "TRF"
+//  },
+//  "F_10_CA": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_46_blank": {
+//    "Term of Payment (Mapped)": "00",
+//    "Method of Payment (Mapped)": "CA"
+//  },
+//  "F_61_blank": {
+//    "Term of Payment (Mapped)": "60A",
+//    "Method of Payment (Mapped)": "TRF"
+//  },
+//  "F_62_blank": {
+//    "Term of Payment (Mapped)": "60A",
+//    "Method of Payment (Mapped)": "TRF"
+//  }
+//}
+
+
+{
+  "Mappings": [
+    {
+      "TermOfPayment": "VD",
+      "MethodOfPayment": "CA",
+      "MappedTerm": "00",
+      "MappedMethod": "CA"
+    },
+    {
+      "TermOfPayment": "VD",
+      "MethodOfPayment": "CQ",
+      "MappedTerm": "00",
+      "MappedMethod": "CA"
+    },
+    //{
+    //  "TermOfPayment": "VD",
+    //  "MethodOfPayment": "DD",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "VD",
+    //  "MethodOfPayment": "TR",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "VD",
+    //  "MethodOfPayment": "",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "30",
+    //  "MethodOfPayment": "CA",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "30",
+    //  "MethodOfPayment": "CQ",
+    //  "MappedTerm": "30",
+    //  "MappedMethod": "CH"
+    //},
+    //{
+    //  "TermOfPayment": "30",
+    //  "MethodOfPayment": "DD",
+    //  "MappedTerm": "30",
+    //  "MappedMethod": "DD"
+    //},
+    //{
+    //  "TermOfPayment": "30",
+    //  "MethodOfPayment": "TR",
+    //  "MappedTerm": "30",
+    //  "MappedMethod": "TRF"
+    //},
+    //{
+    //  "TermOfPayment": "30",
+    //  "MethodOfPayment": "",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "",
+    //  "MethodOfPayment": "CA",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "",
+    //  "MethodOfPayment": "TR",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "",
+    //  "MethodOfPayment": "",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "A",
+    //  "MethodOfPayment": "CA",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "A",
+    //  "MethodOfPayment": "CP",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "A",
+    //  "MethodOfPayment": "CQ",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "A",
+    //  "MethodOfPayment": "TR",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "A",
+    //  "MethodOfPayment": "",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "90",
+    //  "MethodOfPayment": "CA",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "90",
+    //  "MethodOfPayment": "CQ",
+    //  "MappedTerm": "90",
+    //  "MappedMethod": "CH"
+    //},
+    //{
+    //  "TermOfPayment": "90",
+    //  "MethodOfPayment": "DD",
+    //  "MappedTerm": "90",
+    //  "MappedMethod": "DD"
+    //},
+    //{
+    //  "TermOfPayment": "90",
+    //  "MethodOfPayment": "TR",
+    //  "MappedTerm": "90",
+    //  "MappedMethod": "TRF"
+    //},
+    //{
+    //  "TermOfPayment": "60",
+    //  "MethodOfPayment": "CA",
+    //  "MappedTerm": "00",
+    //  "MappedMethod": "CA"
+    //},
+    //{
+    //  "TermOfPayment": "60",
+    //  "MethodOfPayment": "CQ",
+    //  "MappedTerm": "60",
+    //  "MappedMethod": "CH"
+    //},
+    //{
+    //  "TermOfPayment": "60",
+    //  "MethodOfPayment": "DD",
+    //  "MappedTerm": "60",
+    //  "MappedMethod": "DD"
+    //},
+    //{
+    //  "TermOfPayment": "60",
+    //  "MethodOfPayment": "TR",
+    //  "MappedTerm": "60",
+    //  "MappedMethod": "TRF"
+    //},
+    {
+      "TermOfPayment": "45",
+      "MethodOfPayment": "CQ",
+      "MappedTerm": "30",
+      "MappedMethod": "CH"
+    },
+    {
+      "TermOfPayment": "45",
+      "MethodOfPayment": "TR",
+      "MappedTerm": "30",
+      "MappedMethod": "TRF"
+    },
+    {
+      "TermOfPayment": "DD",
+      "MethodOfPayment": "DD",
+      "MappedTerm": "30",
+      "MappedMethod": "DD"
+    },
+    {
+      "TermOfPayment": "12",
+      "MethodOfPayment": "TR",
+      "MappedTerm": "120",
+      "MappedMethod": "TRF"
+    },
+    {
+      "TermOfPayment": "10",
+      "MethodOfPayment": "CA",
+      "MappedTerm": "00",
+      "MappedMethod": "CA"
+    },
+    {
+      "TermOfPayment": "46",
+      "MethodOfPayment": "",
+      "MappedTerm": "00",
+      "MappedMethod": "CA"
+    },
+    {
+      "TermOfPayment": "61",
+      "MethodOfPayment": "",
+      "MappedTerm": "60A",
+      "MappedMethod": "TRF"
+    },
+    {
+      "TermOfPayment": "62",
+      "MethodOfPayment": "",
+      "MappedTerm": "60A",
+      "MappedMethod": "TRF"
+    },
+    {
+      "TermOfPayment": "63",
+      "MethodOfPayment": "",
+      "MappedTerm": "60B",
+      "MappedMethod": "TRF"
+    },
+    {
+      "TermOfPayment": "91",
+      "MethodOfPayment": "",
+      "MappedTerm": "90A",
+      "MappedMethod": "TRF"
+    },
+    {
+      "TermOfPayment": "92",
+      "MethodOfPayment": "",
+      "MappedTerm": "90A",
+      "MappedMethod": "TRF"
+    },
+    {
+      "TermOfPayment": "93",
+      "MethodOfPayment": "",
+      "MappedTerm": "90B",
+      "MappedMethod": "TRF"
+    }
+  ]
+}

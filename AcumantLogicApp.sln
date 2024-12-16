@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcumantLogicApp", "AcumantLogicApp\AcumantLogicApp.csproj", "{9CF12944-BE66-4EF0-844A-DF17BC2DE5FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CF12944-BE66-4EF0-844A-DF17BC2DE5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF12944-BE66-4EF0-844A-DF17BC2DE5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF12944-BE66-4EF0-844A-DF17BC2DE5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF12944-BE66-4EF0-844A-DF17BC2DE5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E632858A-A5E1-42FC-8B86-AC167F0B4E6C}
+	EndGlobalSection
+EndGlobal
